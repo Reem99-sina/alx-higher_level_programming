@@ -17,5 +17,6 @@ if (slow_pointer == fast_pointer)
 {
 return (1);
 }
+}
 return (0);
 }
