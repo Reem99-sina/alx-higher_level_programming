@@ -2,7 +2,7 @@
 import random
 
 number = random.randint(-10000, 10000)
-last_number = abs(number)% 10
+last_number = abs(number) % 10
 responcestring = ""
 if last_number > 5:
     responcestring = "is greater than 5"
