@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+def square_matrix_simple(matrix=[]):
+    new_matrix=[]
+    inside_matrix=[]
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            inside_matrix[j]=matrix[i][j] ** 2
+        new_matrix[i] = inside_matrix
+        inside_matrix=[]
+    return new_matrix
